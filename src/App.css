@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #EEEEEE;
+}
+footer {
+  background-color: #398AB9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img {
+  max-width: 60%;
+}
+
+.project, .home, .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D8D2CB;
+  padding: 4%;
+  margin: 4%;
 }
